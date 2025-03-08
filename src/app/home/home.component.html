@@ -1,0 +1,75 @@
+
+
+<!-- Main Content -->
+    <div class="container">
+        <h1>Our School</h1>
+        <p class="motto">ECOLE SAINTE RITA UBURERE NI ISHINGIRO RY’MUCO N’UBUMENYI<br>EDUCATION IS THE FOUNDATION OF CULTURE AND SCIENCE</p>
+       <div class="flex">
+        <img id="slideshow" src="../../assets/school pic.jpg" width="1070" height="700" >
+    </div>
+        <div class="grid">
+            <div class="card">
+                <h2>VISION</h2>
+                <img  src="../../assets/Vision.jpg" alt="Vision Image" width="200" height="190">
+                <p>Sainte Rita School aims for the development 
+                    of each student through the free expression 
+                    of their thoughts and the development of 
+                    self-confidence, with respect for themselves 
+                    and others; open-mindedness to the world and 
+                    creativity, while maintaining a critical mind 
+                    and a sense of responsibility,
+                    as a young citizen.</p>
+            </div>
+
+            <div class="card">
+                <h2>MISSION</h2>
+                <img src="Mission.jpg" alt="Mission Image" width="200" height="190">
+                <p>The school's mission is to provide students 
+                    with French and English education by 
+                    promoting active and participatory methods 
+                    to enable students to acquire skills and 
+                    develop their autonomy to play an active and 
+                    creative role in their social and professional 
+                    lives in the future.</p>
+            </div>
+
+            <div class="card">
+                <h2>CORE VALUES</h2>
+                <img  src="values.jpg" alt="Values Image" width="200" height="190">
+                <ul type="🔹">
+                    <li> Autonomy </li>
+                    <li> Active Participation</li>
+                    <li> Creativity</li>
+                    <li> Excellence</li>
+                    <li> Discipline</li>
+                    <li> Respect</li>
+                    <li> Patriotism</li>
+                    <li> Solidarity</li>
+                    <li> Unity</li>
+                    <li> Integrity</li>
+                    <li> Self-Confidence</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+   
+    <!--javascript-->
+<script>
+    
+  let images = ["school pic.jpg", "smile.jpg", "smile 2.jpg", "game5.jpg"];
+  let index = 0;
+
+  function changeSlide() {
+    index = (index + 1) % images.length;
+    document.getElementById("slideshow").src = images[index];
+  }
+
+  setInterval(changeSlide, 3000); // Change every 3 seconds
+
+        function toggleMenu() {
+            document.querySelector(".nav").classList.toggle("active");
+        }
+    
+</script>
+    
