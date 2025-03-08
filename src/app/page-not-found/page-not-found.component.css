@@ -1,0 +1,75 @@
+/* Container styling */
+.page-not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Content styling */
+.content {
+    max-width: 600px;
+    padding: 40px;
+    background: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading 1 styling */
+h1 {
+    font-size: 120px;
+    margin: 0;
+    color: #ff6b6b; /* Soft red color */
+    font-weight: 700;
+}
+
+/* Heading 2 styling */
+h2 {
+    font-size: 32px;
+    margin: 20px 0 10px;
+    color: #343a40; /* Dark gray color */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    color: #6c757d; /* Medium gray color */
+    margin-bottom: 30px;
+}
+
+/* Home button styling */
+.home-button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff; /* White text */
+    background-color: #007bff; /* Blue background */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .home-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
