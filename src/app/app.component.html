@@ -1,21 +1,27 @@
-
-<!-- Header -->
-<header class="header">
-  <div class="logo-container">
-  <div class="logo">
-      <img src="../assets/logo.png" alt="Logo">
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+  <a routerLink="/home" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+      <h2 class="m-0 custom-color"><i class="fa fa-book me-3"></i>ECOLE SAINTE RITA</h2>
+  </a>
+  <button type="button" class="navbar-toggler me-4 menu-toggle" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+      <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a routerLink="/home" routerLinkActive="active" class="nav-item nav-link">Home</a>
+          <a routerLink="/services" routerLinkActive="active" class="nav-item nav-link">Services</a>
+          <a routerLink="/about" routerLinkActive="active" class="nav-item nav-link">About</a>
+          <a routerLink="/gallery" routerLinkActive="active" class="nav-item nav-link">Gallery</a>
+          <a routerLink="/contact" routerLinkActive="active" class="nav-item nav-link">Contact</a>
       </div>
-      <span class="title">ECOLE SAINTE RITA</span>
+      <a href="" class="btn custom-btn py-4 px-lg-5 d-none d-lg-block" style="border-radius: 0;">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
   </div>
-  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-  <ul class="nav">
-      <li><a routerLink="/home" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Home</a></li>
-      <li><a routerLink="/services" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Services</a></li>
-      <li><a routerLink="/about" routerLinkActive="activebutton" ariaCurrentWhenActive="page">About</a></li>
-      <li><a routerLink="/gallery" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Gallery</a></li>
-      <li><a routerLink="/contact" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Contact</a></li>
-  </ul>
-</header>
+</nav>
+<!-- Navbar End -->
+
+
+
+
 
 
 <router-outlet></router-outlet>

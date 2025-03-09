@@ -1,3 +1,8 @@
+@import 'bootstrap/dist/css/bootstrap.min.css'; 
+@import './assets/css/style.css';
+@import './assets/lib/animate/animate.min.css';
+@import './assets/lib/owlcarousel/assets/owl.carousel.min.css';
+
 /* General Styles */
 * {
     margin: 0;
@@ -7,10 +12,24 @@
 
 body {
     
-    font-family: 'Arial', sans-serif;
-    background-color: white;
+    /* font-family: 'Arial', sans-serif;
+    background-color: white; */
     color: #222;
-    transition: background 0.5s, color 0.5s;
     text-align: justify;
     line-height: 1.5;
+}
+/* Change h2 and button color to #00bfff */
+.custom-color {
+    color: #00bfff !important;
+}
+
+.custom-btn {
+    background-color: #00bfff !important;
+    border-color: #00bfff !important;
+    color: white !important;
+}
+
+.custom-btn:hover {
+    background-color: #00bfff !important; 
+    border-color: #00bfff !important;
 }
