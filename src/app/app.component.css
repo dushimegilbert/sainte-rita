@@ -40,7 +40,14 @@
     background-color: #009acd; /* Darker shade for hover */
 }
 
-/* Footer */
+/* Ensure Navbar Stays Sticky */
+.navbar.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Ensure navbar stays above other content */
+}
+
+/* Footer Styles */
 .footer {
     background-color: #474545;
     text-align: center;
@@ -54,28 +61,4 @@
     .navbar-nav .nav-item .nav-link {
         padding: 10px 0; /* Adjust padding for mobile */
     }
-}
-
-/* Ensure navbar stays fixed */
-#navbar {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    transition: top 0.3s ease-in-out;
-    z-index: 1000;
-}
-
-/* Hide navbar when scrolling down */
-.navbar-hidden {
-    top: -80px;
-}
-
-/* Ensure dropdowns are visible on mobile */
-.navbar-collapse {
-    transition: all 0.3s ease-in-out;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
 }

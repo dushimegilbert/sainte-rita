@@ -49,14 +49,14 @@ p {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff; /* White text */
-    background-color: #007bff; /* Blue background */
+    background-color: #00bfff; /* Blue background */
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
 .home-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0a5b76; /* Darker blue on hover */
 }
 @media (max-width: 600px) {
     h1 {
