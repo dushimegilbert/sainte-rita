@@ -1,4 +1,10 @@
  /* Content */
+ h2{
+    font-size: 38px;
+ }
+ h1{
+    font-size: 36px;
+ }
  .container {
     margin: 40px auto;
     padding: 20px;

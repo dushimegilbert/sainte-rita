@@ -1,24 +1,13 @@
 
 h1{
 color: #00bfff;
+font-size: 38px;
 }
 
 .motto {
     font-size: 20px;
     font-weight: bold;
     color: hsl(195, 100%, 2%);
-}
-.flex {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin: 20px 0; 
-}
-
-.flex img {
-    max-width: 100%; 
-    height: auto;
-    border-radius: 10px;
 }
 
 /* Responsive Grid */
@@ -37,6 +26,7 @@ color: #00bfff;
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
     text-align: justify;
+    place-items: center;
 }
 
 .card:hover {
@@ -50,6 +40,7 @@ color: #00bfff;
     height: auto;
     max-width: 250px;
     margin-bottom: 15px;
+    
 }
 
 /* Responsive Navbar */
@@ -77,6 +68,14 @@ color: #00bfff;
     .header {
         flex-direction: column;
         text-align: center;
+    }
+    .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
     }
 
     .nav {
@@ -245,10 +244,7 @@ h1, h2 {
     color: #333;
 }
 
-.card ul {
-    list-style-type: none;
-    padding: 0;
-}
+
 
 .card ul li {
     margin-bottom: 10px;
