@@ -1,6 +1,6 @@
 /* Navbar Styles */
 .navbar {
-    background-color: white;
+    background-color: rgb(251, 250, 250);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -28,7 +28,7 @@
 
 /* Custom Button */
 .custom-btn {
-    background-color: #00bfff;
+    background-color:  #00bfff;
     color: white;
     border: none;
     padding: 10px 20px;
