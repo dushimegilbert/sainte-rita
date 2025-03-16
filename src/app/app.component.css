@@ -61,4 +61,10 @@
     .navbar-nav .nav-item .nav-link {
         padding: 10px 0; /* Adjust padding for mobile */
     }
+    h3{
+        font-size: 17px;
+    }
+    .me-3{
+        height: 50px;
+    }
 }
